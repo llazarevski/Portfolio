@@ -154,3 +154,28 @@ footer {
     text-align: center;
   }
 }
+@media screen and (max-width: 500px) {
+
+  h1 {
+    font-size: 36px;
+  }
+  .aboutDescription {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+/*   .projectsContainer {
+    text-align: center;
+    max-width: 100%;
+  }
+  .projects {
+    max-width: 100%;
+    margin: 0;
+  }
+  .projectOnePic {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  } */
+}
+
