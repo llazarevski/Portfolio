@@ -1,0 +1,1 @@
+$('.hero-pic-container').height($(window).height());
