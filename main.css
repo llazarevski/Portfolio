@@ -12,28 +12,26 @@ body {
 
 .hero-pic-container {
   width: 100%;
-  /*   min-height: 900px;  */
   background: url("https://i.imgur.com/n9IbUls.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  opacity: 0.9;
   border-bottom: 5px solid white;
-  position: relative;
+  display: flex;
+  margin: auto;
 }
 
 header {
   font-family: "League Script";
   text-align: center;
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  color: black;
   width: 100%;
+  margin: auto;
 }
 h1 {
-  font-size: 76px;
+  font-size: 110px;
 }
 .altHeader {
   display: none;
@@ -41,44 +39,58 @@ h1 {
 
 section {
   min-height: 400px;
-  padding: 30px 0 50px;
   background-color: #cbcfd6;
   border-bottom: 5px solid #062218;
-}
-.projectsContainer {
-  background-color: white;
 }
 
 h2 {
   font-family: "League Script";
+  width: 100%;
   text-align: center;
-  padding-top: 20px;
-  font-size: 48px;
+  padding-top: 50px;
+  font-size: 52px;
 }
+
 .aboutDescription {
   font-family: "Merriweather Sans";
-  padding: 50px 200px;
+  padding: 50px 100px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 3px;
 }
 
-.projectOne {
-  padding: 50px 100px;
-  max-width: 500px;
-  font-size: 16px;
-  font-family: "Merriweather Sans";
-}
-.projectOnePic {
-  max-width: 300px;
-  padding-bottom: 15px;
+.projectsContainer {
+  background-color: white;
 }
 
+.projects {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 16px;
+  flex-wrap: wrap;
+  }
+
+   .projectImg {
+  max-width: 300px;
+}
+.projectWidth {
+  max-width: 300px;
+  margin: 50px;
+}
+.projectTitle span{
+  font-weight: bold;
+}
+
+ 
 ul {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin-right: 0;
+  padding-inline-start: 0;
 }
 
 .email {
@@ -100,68 +112,19 @@ footer {
   font-size: 13px;
   padding: 10px;
 }
-
-@media screen and (max-width: 1250px) {
-  h1 {
-    font-size: 65px;
-  }
+@media screen and (max-width: 900px) {
+h1 {
+font-size: 72px;
 }
-
-@media screen and (max-width: 1070px) {
-  h1 {
-    display: none;
-  }
-  .altHeader {
-    display: inline;
-    font-size: 96px;
-  }
-  .projectOnePic {
-    max-width: 200px;
-    padding-bottom: 15px;
-  }
-  .projects {
-    max-width: 425px;
-  }
   .aboutDescription {
-    padding: 20px;
-  }
+    padding: 50px 20px;
 }
-
-@media screen and (max-width: 820px) {
-  body{
-    margin: 0;
-    width: 100%;
-  }
-  h1 {
-    font-size: 40px;
-  }
-  .aboutDescription {
-    padding: 20px;
-    font-size: 16px;
-  }
-
-  .projectsContainer {
-    text-align: center;
-    max-width: 100%;
-  }
-  .projects {
-    max-width: 100%;
-    margin: 0;
-  }
-  .projectOnePic {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-  }
 }
-@media screen and (max-width: 500px) {
-
-  h1 {
-    font-size: 30px;
-  }
-  .aboutDescription {
-    padding: 20px;
-    font-size: 14px;
-  }
+@media screen and (max-width: 780px) {
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
