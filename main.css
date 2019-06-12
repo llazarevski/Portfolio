@@ -12,12 +12,12 @@ body {
 
 .hero-pic-container {
   width: 100%;
-  background: url("https://i.imgur.com/n9IbUls.jpg") no-repeat center center;
+  background: url("https://i.imgur.com/ijim97S.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 0.8;
   border-bottom: 5px solid white;
   display: flex;
   margin: auto;
@@ -26,12 +26,13 @@ body {
 header {
   font-family: "League Script";
   text-align: center;
-  color: black;
+  color: white;
   width: 100%;
   margin: auto;
 }
 h1 {
   font-size: 110px;
+  opacity: 10;
 }
 .altHeader {
   display: none;
@@ -90,7 +91,7 @@ ul {
   justify-content: center;
   width: 100%;
   margin-right: 0;
-  padding-inline-start: 0;
+  padding-inline-start: 0px;
 }
 
 .email {
@@ -127,4 +128,3 @@ ul {
   justify-content: center;
   flex-wrap: wrap;
 }
-
