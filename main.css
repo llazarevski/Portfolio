@@ -128,3 +128,14 @@ ul {
   justify-content: center;
   flex-wrap: wrap;
 }
+.aboutDescription {
+  padding: 50px 20px;
+}
+}
+@media screen and (max-width: 400px) {
+  h1 {
+     font-size: 86px;}
+  .email{
+     font-size: 20px;
+  }
+} 
