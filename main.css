@@ -134,7 +134,8 @@ ul {
 }
 @media screen and (max-width: 400px) {
   h1 {
-     font-size: 72px;}
+     font-size: 72px;
+    }
   .email{
      font-size: 20px;
   }
